@@ -256,15 +256,21 @@ img {
 	width: 100%;
 	max-width: 100%;
 	border-radius: 3px;
+	border: 10px solid #ddd;	
+	margin-bottom: 0;
 }
 
-/* Made with Cactus Badge */
-#badge {
-	position: absolute; 
-	bottom: 8px; 
-	right: 8px;
-	height: 48px; 
-	width: 48px;
+.img{
+	line-height:normal;
+	background: #ddd;
+}
+
+.img-caption{
+	background: #ddd;
+	margin-top: 0;
+	padding: 0px 0px 5px 10px;
+	font-size:12px;
+	font-weight:bold;
 }
 
 /*=========================================

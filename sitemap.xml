@@ -22,7 +22,23 @@
 
 	
 	<url>
+		<loc>http://scotchandawe.com/posts/footnotes-on-the-web.html</loc>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+
+	
+	<url>
 		<loc>http://scotchandawe.com/posts/linear-growth-is-unbearable.html</loc>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+	
+
+	
+	<url>
+		<loc>http://scotchandawe.com/posts/play-dumb.html</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>

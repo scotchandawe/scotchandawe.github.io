@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Footnotes on the Web | Scotch and Awe</title>
+	<link rel="shortcut icon" href="/static/images/favicon.ico">	
+	<link rel="stylesheet" href="/static/css/style.css">
+	<link rel="alternate" type="application/rss+xml" title="Scotch And Awe Feed" href="/rss.xml">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-65470716-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+	
+
+<section id="wrapper" class="group">
+	<header id="header">
+		<a id="title" href="/">Scotch And Awe</a>
+	</header>
+
+	<article class="post">
+		<header>
+			<h1>Footnotes on the Web</h1>
+			<h2 class="headline">Important writing has footnotes. The web sucks at footnotes. Therefore there is no important writing on the web. </h2>
+		</header>
+		<section id="post-body">
+			
+
+<h3>The Problem</h3>
+
+<p>The concept of the physical page is absent on the web and with it's demise so too have footnotes been destroyed as a useful tool. Non fiction writing and annotated literature have <a href="http://www.sed.qmul.ac.uk/colt/theory/history.htm">long</a> used footnotes to markup their works with citations or parenthetical comments. A well annotated book gives the reader all of the satisfaction that clicking through articles on Wikipedia does; it induces thought and provides the curious with a route to discovery. </p>
+
+<p>If we could effectively annotate the web, it would promote a higher level of accountability and discourse (see Medium.com's implementation below). Footnotes provide a way for an author to document to their sourced ideas and the readers a tool allow others to dispute claims. </p>
+
+<h3>Footnotes vs Side notes vs End notes</h3>
+
+<h4>Footnotes</h4>
+
+<blockquote>
+  <p><strong>Footnote</strong> /fo͝otˌnōt/
+  <em>noun</em> - 
+  an ancillary piece of information printed at the bottom of a page.</p>
+</blockquote>
+
+<p><img src="/static/images/footnotes/footnotes.jpg" alt="Footnotes" /></p>
+
+<p>Footnotes are the standard way to cite and annotate text in books. In informationally dense texts footnotes often cover 25% or more of the page e.g. <a href="http://amzn.com/0195290003">The Oxford Study Bible</a>. While <a href="http://www.goodreads.com/quotes/185342-having-to-read-footnotes-resembles-having-to-go-downstairs-to" title="Noel Coward on Footnotes">some</a> despise footnotes, for me they share equal importance with the text they annotate displaying prior, contrary, or supplemental knowledge.</p>
+
+<p>The concept of a <em>page</em> on the web is different from a <em>page</em> in a book. Most web pages today represent the entire written work, at best they are a single chapter or subsection of a work. When footnotes are present on the web, they are really end notes. In a book there is a limited distance between an annotation and the relevant text. On the web most annotations won't be visible while reading, requiring you to click to jump to the part of the page where the note is or showing a popover dialog with the note.</p>
+
+<h4>Side Notes</h4>
+
+<blockquote>
+  <p><strong>Side note</strong>
+  <em>noun</em> - 
+  a notation made in the margins or sides of a page; also called marginal note</p>
+</blockquote>
+
+<p><img src="/static/images/footnotes/sidenotes.jpg" alt="Side notes" /></p>
+
+<p>Side notes are the cousin of the footnote. In printed books, usually textbooks or larger format books, they are used in place of footnotes, especially when diagrams or images are part of the annotation. On the web side notes are a useful way to keep annotations in close proximity with the relevant text. This usefulness breaks down on mobile devices, in portrait orientation, there just isn't room to have side notes.</p>
+
+<h4>End Notes</h4>
+
+<blockquote>
+  <p><strong>End note</strong>
+  <em>noun</em> - 
+  a tool for narcissistic writers required to cite their sources to hide shit in the back of a book</p>
+</blockquote>
+
+<p><img src="/static/images/footnotes/endnotes.jpg" alt="End notes" /></p>
+
+<p>End notes in a book have the same problem that footnotes do on the web. You've got to jump around all over the place to see where this alarming statement of fact made by an author is coming from. Ain't nobody got time for that.</p>
+
+<h3>Implementations</h3>
+
+<h4>Medium.com</h4>
+
+<p><a href="https://medium.com/about/why-medium-notes-are-different-and-how-to-use-them-well-5972c72b18f2">https://medium.com/about/why-medium-notes-are-different-and-how-to-use-them-well-5972c72b18f2</a></p>
+
+<p><img src="/static/images/footnotes/medium.jpg" alt="Medium.com side notes - Desktop" /></p>
+
+<p>Medium, despite it's <a href="https://medium.com/@andrhia/the-problem-with-medium-336300490cbb" title="Medium owns your content">evils</a> is doing a pretty bang up job with their side notes. Notes are viewable on mobile as well as desktop, threaded replies are enabled. What they've really done is take commenting to the next level. An author can annotate their content, and the general public can reply. This mix of citation and discussion is really what the web demands. The only complaint to be had here is that the discussion is obscured, which is how Medium has solved the problem of showing side note content much longer than the piece of text.</p>
+
+<p><img src="/static/images/footnotes/medium-mobile.jpg" alt="Medium.com side notes - Mobile" /></p>
+
+<h4>jQuery.sidenotes</h4>
+
+<p><a href="http://acdlite.github.io/jquery.sidenotes/">http://acdlite.github.io/jquery.sidenotes/</a></p>
+
+<p>This jQuery plugin is as good as it gets for the self publisher. On desktop, you can acheive well placed sidenotes without a ton of work. The plugin automatically parses converted Markdown footnotes and makes them into sidenotes. On devices without enough room to show side notes it reverts to end notes and the default strategy of anchor links to navigate to and from notes.</p>
+
+<h5>Desktop</h5>
+
+<p><img src="/static/images/footnotes/jQuery.sidenotes-desktop.jpg" alt="jQuery.sidenotes on Desktop" /></p>
+
+<h5>Tablet</h5>
+
+<p><img src="/static/images/footnotes/jQuery.sidenotes-tablet.jpg" alt="jQuery.sidenotes on a Tablet" /></p>
+
+<h5>Mobile</h5>
+
+<p><img src="/static/images/footnotes/jQuery.sidenotes-mobile.jpg" alt="jQuery.sidenotes on Mobile" /></p>
+
+<h4>BigFootJs</h4>
+
+<p><a href="http://www.bigfootjs.com/">http://www.bigfootjs.com/</a></p>
+
+<p><img src="/static/images/footnotes/bigfootjs.jpg" alt="BigFootJs Popover" /></p>
+
+<p>Listen. This library does something. I'll admit that. But it doesn't acheive anything in the way of annotating text in a useful way. Think about all the UX no-nos here. Content obscured, useless touch targets, strange mouse behavior if you click. Annotations should be relatively static. If the content they're related too is no longer visible then ok, don't show them. But most readers have never encountered this style of note.</p>
+
+<h4>HTML Anchors</h4>
+
+<p><a href="https://www.cs.tut.fi/~jkorpela/www/fn.html">https://www.cs.tut.fi/~jkorpela/www/fn.html</a></p>
+
+<p>This is the 'old' way to do things. What is produced is really end notes in most cases. Unless the text is quite small, you're going to create a really negative jumping around experience. Massive amounts of automatic scrolling gets disorienting fast and it doesn't help that when you click on an link to return to the anchor in the text you were reading, the text won't be where you left it. You're going to end up scrolled to some point further than you previously were if the footnote anchor was anywhere below the first line of visible text.</p>
+
+<h3>Hey Scotchy you f****r, where are your footnotes?</h3>
+
+<p>When I'm done solving world hunger I'll move on to solving footnotes on the internet. For now maybe some type face expert in Brooklyn can team up with a Javascript Guru Ninja from Mountain View and fix this. Get off my back already. </p>
+
+
+		</section>
+		
+		<footer id="post-meta" class="clearfix">
+			<div><span>Posted on </span> Aug 3</div>
+			<div><span>Written by</span> Scotchy</div>
+
+			<section id="sharing">
+				<div class="addthis_sharing_toolbox"></div>
+			</section> 
+		</footer> 
+	</article>
+
+	<footer>
+	<nav id="post-nav">
+		<span class="prev">
+			
+				<a href='/posts/play-dumb.html'>
+					<span class="arrow">&larr;</span> Play Dumb
+				</a>
+			
+		</span>
+		
+
+		<span class="next">
+			
+		</span>
+	</nav>
+	</footer>
+</section> 
+
+
+
+	
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="/static/js/main.js"></script>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55b00bdf38089659" async="async"></script>
+	
+	
+</body>
+</html>

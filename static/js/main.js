@@ -34,3 +34,12 @@ function retina() {
 };
  
 $(document).ready(retina);
+
+
+$("img").wrap(function(){
+	return 	"<div class='img'></div>";
+});
+
+$("img").after(function(){
+	return "<div class='img-caption'>"+$(this).attr('alt')+"</div>";
+});
